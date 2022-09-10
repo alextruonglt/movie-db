@@ -6,11 +6,12 @@ import SingleMovie from './SingleMovie'
 import Movie from './SingleMovie'
 
 function App() {
+
+  // Only two routs, the home page + indvidaul movie page
   return (
   <Routes>
     <Route path="/" element={ <Home/>}/>
     <Route path="movies/:id" element={ <Movie/>}/>
-   
   </Routes>
   )
 }
